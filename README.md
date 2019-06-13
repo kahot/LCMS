@@ -1,4 +1,4 @@
-** LCMS/MS Data analysis tools for *P. lobata* **
+**LCMS/MS Data analysis tools for _P. lobata_**
 
 - ProteomicsData_Prep.R 
   This file contains 2 functions: 
