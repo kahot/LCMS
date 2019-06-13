@@ -27,6 +27,9 @@ for (i in c(1,3,5)){
         write.table(coral, paste0("Output/",samples[i],"vs", samples[i+1],"_corals.txt"), quote=F,sep="\t",row.names = F ) 
 }
 
+## _all.txt includes corals and symbiodinium spec count data.
+## _corals.txt only contains coral spec count data.
+
 
 ###########
 ### Pool Olowalu technical replicates

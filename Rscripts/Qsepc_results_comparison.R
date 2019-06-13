@@ -1,6 +1,8 @@
 library(rlang)
 
-# look at the qspec results based on pooled vs none / coral proteins only vs. corals +symbiodinium
+# look at the qspec results based on pooled vs non-pooled, and  coral-proteins only vs. corals +symbiodinium
+# for Olowalu samples. 
+
 olowalu_list<-list.files("Output/", pattern = "fdr.txt")
 summary<-data.frame(test=olowalu_list)
 protein_up1<-list()
@@ -62,4 +64,5 @@ for (i in 1:6){
 write.csv(summary, "Output/Olowalu_test_comparison.csv")
 write.csv(summary2, "Output/Olowalu_test_comparison2.csv")
 
-
+# Pooling samples identifies more significantly differentially expressed proteins
+# Use coral proteins only, and pooled data for Olowalu.
