@@ -6,3 +6,6 @@ ProteomicsData_Prep.R
     - The 2nd function will prepare the iPath input files and output; 
            1) All expressed proteins per treatment in .txt file, and 
            2) iPath ready input file for differnetially expressed proteins.  
+           
+Qspec_prep.R
+   This script will create a Qspec input file for 2018 Maui Data.
