@@ -1,5 +1,5 @@
 
-## 1) Attach UniprotID to the Qspec Reults file
+## 1) Attach UniprotID (and Defline) to the Qspec Reults file
 
 source("Rscripts/FindUniprotID.R")
 
