@@ -1,5 +1,7 @@
+#same as FindUniprotID function but for .csv file
+
 FindUniprotID<-function(data,newname){
-        data<-read.table(data, sep="\t", stringsAsFactors = F,  header=T)
+        data<-read.csv(data, stringsAsFactors = F)
         #data<-read.csv(data,stringsAsFactors = F)
         ProteinID<-read.csv("Data/ProteinID_sorted.csv", stringsAsFactors = F) 
         data1<-merge(data,ProteinID[,1:3],by="Protein",all.x = T)
@@ -7,6 +9,3 @@ FindUniprotID<-function(data,newname){
         
         
 }
-
-#data<-read.table("Output/OOvsON_corals.txt_qspec_paired_fdr.txt", sep="\t", stringsAsFactors = F, header=T)
-#data<-read.csv("Output/OOvsON_corals.txt_qspec_paired_fdr.txt", sep="\t", stringsAsFactors = F)

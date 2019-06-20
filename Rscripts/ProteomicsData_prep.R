@@ -4,11 +4,17 @@
 source("Rscripts/FindUniprotID.R")
 
 
-# FindUniprotID("InputSourceFile.csv","Output_file_name.csv" )
-# Input file should be csv file
+# FindUniprotID("InputSourceFile.txt","Output_file_name.csv" )
+# Use the qspec output file as an input file (.txt)
 # Example:
-FindUniprotID("Data/Honokowai_HSvsHD.csv","Output/Honokowai_uniprot.csv")
+FindUniprotID("Output/OOvsON_pooled_corals.txt_qspec_paired_fdr.txt","Output/Olowalu_uniprot.csv")
+FindUniprotID("Output/WNvsWO_corals.txt_qspec_paired_fdr.txt","Output/Wahikuli_uniprot.csv")
+FindUniprotID("Output/BDSP/Honokowai2013_qspec.txt_qspec_paired_fdr.txt","Output/Honokowai2013_uniprot.csv")
 
+
+### for .csv data file ###
+source("Rscripts/FindUniprotID2.R")
+FindUniprotID("Data/Honokowai_QspecResults.csv","Output/BDSP/Honokowai2017_uniprot.csv")
 
 
 ## 2) Create iPath input files
@@ -16,10 +22,12 @@ source("Rscripts/iPATH_Prep.R")
 
 # 1.Input file = files you want to run in iPath 3.
 # 2.sample or location name to be used in Output files
-# 3. Color for Site 1 (or Sample "0" in Qspec output)
-# 4. Color for Site 2 (or Sample "1" in Qspec output)
+# 3. Color for Site 1 (or Sample "0" in Qspec output)  #F68D09=Orange
+# 4. Color for Site 2 (or Sample "1" in Qspec output)  #0A41E9=Blue
 # 5. Width of the lines
 
 # Example
-iPATH_prep("Output/Honokowai_uniprot.csv", "Honokowai", "#F68D09","#0A41E9",15)
+iPATH_prep("Output/Olowalu_uniprot.csv", "Olowalu", "#F68D09","#0A41E9",15)
+iPATH_prep("Output/Wahikuli_uniprot.csv", "Wahikuliu", "#F68D09","#0A41E9",15)
+iPATH_prep("Output/Polanui_uniprot.csv", "Polanui", "#F68D09","#0A41E9",15)
 
