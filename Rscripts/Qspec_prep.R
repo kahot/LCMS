@@ -60,3 +60,21 @@ for (i in 5){
         write.table(coral, paste0("Output/",samples[i],"vs", samples[i+1],"_pooled_corals.txt"), quote=F,sep="\t",row.names = F ) 
 }
 
+########
+# eliminate the rows with all zero before running qspec
+
+M2017<-list.files("Output/", pattern="2017.txt$")
+for (i in 1:length(olo.files)){
+        DF<-read.table(paste0("Output/", M2017[i]), sep="\t", header=T)
+        DF<-DF[!grepl("symb",DF$PROTID),]
+        DF<-DF[grepl("m.",DF$PROTID),]
+        
+        n<-ncol(DF)-2
+        DF<-DF[rowSums(DF[3:(2+n)])!=0,]
+        colnames(DF)[3:(2+n/2)]<-0
+        colnames(DF)[(3+n/2):(2+n)]<-1
+        write.table(DF,paste0("Output/cleaned.",M2017[i]), quote=F,sep="\t",row.names = F)
+}
+
+#h<-read.table("Output/cleaned.WNvsWO2017.txt", stringsAsFactors = F,sep = "\t", header = T)
+

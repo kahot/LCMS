@@ -8,5 +8,3 @@ FindUniprotID<-function(data,newname){
         
 }
 
-#data<-read.table("Output/OOvsON_corals.txt_qspec_paired_fdr.txt", sep="\t", stringsAsFactors = F, header=T)
-#data<-read.csv("Output/OOvsON_corals.txt_qspec_paired_fdr.txt", sep="\t", stringsAsFactors = F)

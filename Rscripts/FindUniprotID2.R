@@ -1,6 +1,6 @@
 #same as FindUniprotID function but for .csv file
 
-FindUniprotID<-function(data,newname){
+FindUniprotID2<-function(data,newname){
         data<-read.csv(data, stringsAsFactors = F)
         #data<-read.csv(data,stringsAsFactors = F)
         ProteinID<-read.csv("Data/ProteinID_sorted.csv", stringsAsFactors = F) 
