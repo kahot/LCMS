@@ -8,10 +8,12 @@ spec.df<-data.frame(PROTID=spec$PROTID)
 d2<-dt[-1,c("PROTID","PROTLEN")]
 spec.df<-merge(spec.df, d2, by="PROTID")
 spec.df<-spec.df[!grepl("gi",spec.df$PROTID),]
+spec.df<-spec.df[grepl("m.",spec.df$PROTID),]
 
 samples<-colnames(spec)[3:ncol(spec)]
 samples<-substr(samples, start=1, stop=2)
 samples<-unique(samples)
+samples<-samples[c(1:4,6,5)]
 
 for (i in c(1,3,5)){
         dat1<-spec %>% dplyr:: select("PROTID",grep(samples[i], names(spec)), grep(samples[i+1], names(spec)))
@@ -24,6 +26,7 @@ for (i in c(1,3,5)){
         dat<-dat[dat2$sum!=0,]
         write.table(dat, paste0("Output/",samples[i],"vs", samples[i+1],"_all.txt"), quote=F,sep="\t",row.names = F )
         coral<-dat[!grepl("symb",dat$PROTID),]
+        
         write.table(coral, paste0("Output/",samples[i],"vs", samples[i+1],"_corals.txt"), quote=F,sep="\t",row.names = F ) 
 }
 

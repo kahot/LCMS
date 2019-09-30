@@ -9,21 +9,20 @@ source("Rscripts/FindUniprotID.R")
 # Example:
 FindUniprotID("Output/OOvsON_pooled_corals.txt_qspec_paired_fdr.txt","Output/Olowalu_uniprot.csv")
 FindUniprotID("Output/WNvsWO_corals.txt_qspec_paired_fdr.txt","Output/Wahikuli_uniprot.csv")
-FindUniprotID("Output/PNvsPO_corals.txt_qspec_paired_fdr.txt","Output/Polanui_uniprot.csv")
 
 
 #run this function for all qspec result files
-f<-list.files("Output/BDSP/", pattern= "paired_fdr$")
+f<-list.files("Output/Olowalu2/", pattern= "paired_fdr$")
 for (i in 1: length(f)){
         fname<-gsub(".txt_qspec_paired_fdr.txt","",f[i])
-        FindUniprotID(paste0("Output/BDSP/",f[i]),paste0("Output/BDSP/",fname,".uniprot.csv"))
+        FindUniprotID(paste0("Output/Olowalu2/",f[i]),paste0("Output/Olowalu2/",fname,".uniprot.csv"))
 }
 
 
 ### for .csv data file ###
 source("Rscripts/FindUniprotID2.R")
 FindUniprotID2("Data/Honokowai_QspecResults.csv","Output/BDSP/Honokowai2017_uniprot.csv")
-
+FindUniprotID2("~/Dropbox/BDSP/Data/Hono2013_2.csv","~/Dropbox/BDSP/Data/Hono2013_2_uniprot.csv")
 
 ## 2) Create iPath input files
 source("Rscripts/iPATH_Prep.R")
