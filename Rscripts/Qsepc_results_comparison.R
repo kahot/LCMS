@@ -131,24 +131,3 @@ write.csv(summary2, "Output/Olowalu/Olowalu_test_comparison2-removedSingleProtei
 
 #Don't manually adjust the spec counts for the samples with less technical replicates
 
-#######################################
-### Rat poison exp
-rat_list<-list.files("Output/Rat/", pattern = "fdr.csv")
-summary<-data.frame(test=rat_list)
-protein_up1<-list()
-protein_up2<-list()
-for (i in 1:length(rat_list)){
-        dt<-read.csv(paste0("Output/Rat/", rat_list[i]), stringsAsFactors = F, header=T)
-        UPinSite1<-dt[dt$LogFoldChange<=-0.5 & dt$Zstatistic<=-2,]
-        UPinSite2<-dt[dt$LogFoldChange>= 0.5 & dt$Zstatistic>=2,]
-        
-        summary[i,"Up_site1"]<-nrow(UPinSite1)
-        summary[i,"Up_site2"]<-nrow(UPinSite2)
-        
-        protein_up1[[i]]<-UPinSite1$Protein
-        names(protein_up1)[i]<-substr(rat_list[i],start=1, stop=14)
-        protein_up2[[i]]<-UPinSite2$Protein
-        names(protein_up2)[i]<-substr(rat_list[i],start=1, stop=14)
-        
-}
-
