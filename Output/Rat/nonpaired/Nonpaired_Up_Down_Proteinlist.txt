@@ -1,0 +1,200 @@
+#Upregulated proteins (FDR <0.01, 50k iterations, nonpaired)
+1 Rat_FSW.vs.HBP 
+ [1] "Complement C3 "                                           
+ [2] "Isocitrate lyase "                                        
+ [3] "Calmodulin "                                              
+ [4] "Beta-galactosidase "                                      
+ [5] "Tropomyosin-2 "                                           
+ [6] "Beta gamma crystallin isoform 10 (Fragment) "             
+ [7] NA                                                         
+ [8] "Nuclease-sensitive element-binding protein 1 "            
+ [9] "Pregnancy zone protein "                                  
+[10] "MAM and LDL-receptor class A domain-containing protein 1 "
+[11] "VWFA and cache domain-containing protein 1 "              
+[12] "Retinol dehydrogenase 8 "                                 
+[13] "Serine--pyruvate aminotransferase mitochondrial "         
+[14] "Putative uncharacterized protein "                        
+[15] "Low-density lipoprotein receptor-related protein 4 "      
+[16] "Beta gamma crystallin isoform 10 (Fragment) "             
+[17] NA                                                         
+[18] "CUB and sushi domain-containing protein 3 "               
+[19] "Elongation factor 1-gamma "                               
+[20] "Ubiquitin-40S ribosomal protein S27a "                    
+[21] NA                                                         
+[22] NA                                                         
+[23] "Predicted protein (Fragment) "                            
+[24] "Protein kinase C-binding protein NELL2 "                  
+[25] "Protein transport protein Sec61 subunit alpha isoform 2 " 
+
+
+2 Rat_FSW.vs.HIP 
+ [1] "Collagen alpha-2(I) chain "                         
+ [2] "Complement C3 "                                     
+ [3] "Beta-galactosidase "                                
+ [4] "Histone deacetylase 1 "                             
+ [5] "Beta gamma crystallin isoform 10 (Fragment) "       
+ [6] "Calmodulin-2 "                                      
+ [7] NA                                                   
+ [8] "Pregnancy zone protein "                            
+ [9] "VWFA and cache domain-containing protein 1 "        
+[10] "Serine--pyruvate aminotransferase mitochondrial "   
+[11] "Glutathione S-transferase "                         
+[12] "Putative uncharacterized protein "                  
+[13] "Low-density lipoprotein receptor-related protein 4 "
+[14] "Beta gamma crystallin isoform 10 (Fragment) "       
+[15] "Predicted protein "                                 
+[16] "CUB and sushi domain-containing protein 3 "         
+[17] "Ubiquitin-40S ribosomal protein S27a "              
+[18] "Predicted protein (Fragment) "                      
+[19] "Equistatin "                                        
+[20] "Protein kinase C-binding protein NELL2 "            
+
+3 Rat_FSW.vs.LBP 
+[1] "Complement C3 "                                           
+[2] "Basic leucine zipper and W2 domain-containing protein 1 " 
+[3] "MAM and LDL-receptor class A domain-containing protein 1 "
+[4] "Serine--pyruvate aminotransferase mitochondrial "         
+[5] NA                                                         
+[6] "CUB and sushi domain-containing protein 3 "               
+[7] "Cullin-associated NEDD8-dissociated protein 1 "           
+[8] "Mannan-binding lectin serine protease 1 "                 
+
+4 Rat_FSW.vs.LIP 
+[1] "NADH dehydrogenase [ubiquinone] 1 alpha subcomplex subunit 5 "
+[2] NA                                                             
+[3] NA                                                             
+[4] "26S protease regulatory subunit 4 "                           
+[5] "Hypoxia up-regulated protein 1 "                              
+[6] "GFP-like fluorescent chromoprotein cFP484 "                   
+[7] "Spondin-2 "                                                   
+
+5 Rat_FSW.vs.MBP 
+[1] "Complement C3 "                                  
+[2] "Beta gamma crystallin isoform 10 (Fragment) "    
+[3] "VWFA and cache domain-containing protein 1 "     
+[4] "Serine--pyruvate aminotransferase mitochondrial "
+[5] "Putative uncharacterized protein "               
+[6] NA                                                
+[7] "CUB and sushi domain-containing protein 3 "      
+[8] "Spondin-2 "                                      
+
+6 Rat_FSW.vs.MIP 
+[1] "Glycine N-methyltransferase "                    
+[2] "Complement C3 "                                  
+[3] "Beta gamma crystallin isoform 10 (Fragment) "    
+[4] "Serine--pyruvate aminotransferase mitochondrial "
+[5] NA                                                
+[6] "CUB and sushi domain-containing protein 3 "      
+[7] "Betaine--homocysteine S-methyltransferase 1 "    
+[8] "Spondin-2 "                                      
+
+#Downregulated 
+1 Rat_FSW.vs.HBP 
+ [1] "Thrombospondin-1 "                                          
+ [2] "Matrilin-3 "                                                
+ [3] "Collagen alpha-6(VI) chain "                                
+ [4] "Putative uncharacterized protein "                          
+ [5] "Hemicentin-1 "                                              
+ [6] "Thyroglobulin "                                             
+ [7] "Collagen alpha-6(VI) chain "                                
+ [8] "Acetyl-coenzyme A synthetase cytoplasmic "                  
+ [9] "Olfactomedin-like protein 2A "                              
+[10] "Collagen alpha-1(XII) chain "                               
+[11] "Equistatin "                                                
+[12] "S-methylmethionine--homocysteine S-methyltransferase BHMT2 "
+[13] "Tryptophan--tRNA ligase cytoplasmic "                       
+[14] "Collagen alpha-5(VI) chain "                                
+[15] "Predicted protein "                                         
+[16] "Olfactomedin-like protein 2A "                              
+[17] "Major yolk protein "                                        
+[18] "Hypothetical transporter "                                  
+[19] "Proteasome subunit beta type-3 "                            
+[20] "Thrombospondin-1 "                                          
+[21] "Trifunctional enzyme subunit alpha mitochondrial "          
+[22] "Collagen alpha-5(VI) chain "                                
+[23] "Apoptosis-inducing factor 2 "                               
+[24] "Beta gamma crystallin isoform 10 (Fragment) "               
+
+2 Rat_FSW.vs.HIP 
+ [1] "Thrombospondin-1 "                                  
+ [2] "Collagen alpha-6(VI) chain "                        
+ [3] "ATP synthase subunit O mitochondrial "              
+ [4] "Peptidyl-prolyl cis-trans isomerase B "             
+ [5] "Thyroglobulin "                                     
+ [6] "Olfactomedin-like protein 2A "                      
+ [7] "Predicted protein "                                 
+ [8] "Hydroxyacyl-coenzyme A dehydrogenase mitochondrial "
+ [9] "Tryptophan--tRNA ligase cytoplasmic "               
+[10] "Collagen alpha-5(VI) chain "                        
+[11] "Predicted protein "                                 
+[12] "Hydroxysteroid dehydrogenase-like protein 2 "       
+[13] "Major yolk protein "                                
+[14] "RNA-binding protein Nova-2 "                        
+[15] "V-type proton ATPase catalytic subunit A isoform 2 "
+[16] "S-adenosylmethionine synthase isoform type-2 "      
+[17] "Proteasome subunit beta type-3 "                    
+[18] "Trypsin-2 (Fragment) "                              
+[19] NA                                                   
+[20] "Trifunctional enzyme subunit alpha mitochondrial "  
+[21] "Apoptosis-inducing factor 2 "                       
+
+3 Rat_FSW.vs.LBP 
+[1] "Thrombospondin-1 "                    "Peroxidasin homolog "                
+[3] "Olfactomedin-like protein 2A "        "Ricin B lectin (Precursor) "         
+[5] "Laminin subunit alpha-2 "             "Tryptophan--tRNA ligase cytoplasmic "
+[7] NA                                    
+
+4 Rat_FSW.vs.LIP 
+ [1] "Clathrin heavy chain 1 "                                        
+ [2] "Chloride intracellular channel protein 1 "                      
+ [3] "Calpain-9 "                                                     
+ [4] "Thrombospondin-1 "                                              
+ [5] "14-3-3 protein epsilon "                                        
+ [6] "Tyrosine--tRNA ligase cytoplasmic "                             
+ [7] "Retinal dehydrogenase 1 "                                       
+ [8] "AP-2 complex subunit beta "                                     
+ [9] "Protein NipSnap homolog 1 "                                     
+[10] "Fructose-16-bisphosphatase 1 "                                  
+[11] NA                                                               
+[12] "Tryptophan--tRNA ligase cytoplasmic "                           
+[13] NA                                                               
+[14] "Predicted protein "                                             
+[15] "Predicted protein "                                             
+[16] "Catalase "                                                      
+[17] "Pyruvate carboxylase mitochondrial "                            
+[18] "Phosphatidylserine decarboxylase proenzyme 3 "                  
+[19] NA                                                               
+[20] "Predicted protein "                                             
+[21] "Putative flagellar-associated protein (Fragment) "              
+[22] "Malate dehydrogenase cytoplasmic "                              
+[23] "23-bisphosphoglycerate-independent phosphoglycerate mutase 1 "  
+[24] "Hypothetical transporter "                                      
+[25] "Proteasome subunit beta type-3 "                                
+[26] "Cell division control protein 42 homolog "                      
+[27] "Pyruvate dehydrogenase E1 component subunit beta mitochondrial "
+[28] "Predicted protein "                                             
+[29] NA                                                               
+[30] "Extended synaptotagmin-2 "                                      
+[31] "Ras-related protein Rab-7a "                                    
+[32] "Beta gamma crystallin isoform 10 (Fragment) "                   
+
+5 Rat_FSW.vs.MBP 
+ [1] "Xaa-Pro aminopeptidase 1 "                        
+ [2] "Pyruvate kinase PKM "                             
+ [3] "Thyroglobulin "                                   
+ [4] "AP-2 complex subunit beta "                       
+ [5] "3-hydroxybutyryl-CoA dehydratase "                
+ [6] "Tryptophan--tRNA ligase cytoplasmic "             
+ [7] "Proteasome subunit beta type-3 "                  
+ [8] "Cell division control protein 42 homolog "        
+ [9] "Trifunctional enzyme subunit alpha mitochondrial "
+[10] "Profilin "                                        
+[11] "Apoptosis-inducing factor 2 "                     
+[12] NA                                                 
+
+6 Rat_FSW.vs.MIP 
+[1] "ALK tyrosine kinase receptor "        "Hemicentin-2 "                       
+[3] "Peroxidasin homolog "                 "Olfactomedin-like protein 2A "       
+[5] "Ricin B lectin (Precursor) "          "Laminin subunit alpha-2 "            
+[7] "Tryptophan--tRNA ligase cytoplasmic " NA                                    
+

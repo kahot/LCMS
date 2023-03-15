@@ -1,0 +1,153 @@
+#Upregulated proteins (FDR <0.01, 50-80k iterations)
+1 Rat_FSW.vs.HBP 
+[1] "Phosphoenolpyruvate carboxykinase [GTP] mitochondrial "
+[2] "Predicted protein "                                    
+[3] "Putative flagellar-associated protein (Fragment) "     
+[4] "Elongation factor 1-gamma "                            
+[5] "Heat shock protein HSP 90-alpha 1 "                    
+
+2 Rat_FSW.vs.HIP 
+character(0)
+
+3 Rat_FSW.vs.LBP 
+character(0)
+
+4 Rat_FSW.vs.LIP 
+[1] "EGF-like repeat and discoidin I-like domain-containing protein 3 "
+
+5 Rat_FSW.vs.MBP 
+character(0)
+
+6 Rat_FSW.vs.MIP 
+[1] "Glutathione S-transferase "               
+[2] "Reticulocyte-binding protein 2 homolog a "
+[3] "Multifunctional protein ADE2 "          
+
+
+#Upregulated proteins (FDR <0.05, 50-80k iterations)
+1 Rat_FSW.vs.HBP 
+[1] "Phosphoenolpyruvate carboxykinase [GTP] mitochondrial "
+[2] "Predicted protein "                                    
+[3] "Putative flagellar-associated protein (Fragment) "     
+[4] "Elongation factor 1-gamma "                            
+[5] "Heat shock protein HSP 90-alpha 1 "                    
+
+2 Rat_FSW.vs.HIP 
+character(0)
+
+3 Rat_FSW.vs.LBP 
+[1] "Elongation factor 1-alpha "    "Olfactomedin-like protein 2A "
+
+4 Rat_FSW.vs.LIP 
+[1] "Phosphatidylserine decarboxylase proenzyme 3 "                    
+[2] "Protein disulfide-isomerase 2 "                                   
+[3] "EGF-like repeat and discoidin I-like domain-containing protein 3 "
+
+5 Rat_FSW.vs.MBP 
+[1] "Small cysteine-rich protein 3a "
+
+6 Rat_FSW.vs.MIP 
+[1] NA                                         
+[2] "Glutathione S-transferase "               
+[3] "Reticulocyte-binding protein 2 homolog a "
+[4] "Multifunctional protein ADE2 "            
+
+
+
+# Downregulated proteins (FDR<0.01, 50-80k iterations)
+1 Rat_FSW.vs.HBP 
+[1] NA                                         
+[2] "Transketolase-like protein 2 "            
+[3] "Reticulocyte-binding protein 2 homolog a "
+[4] "Filamin-A "                               
+
+2 Rat_FSW.vs.HIP 
+[1] "Small cysteine-rich protein 3a "
+
+3 Rat_FSW.vs.LBP 
+ [1] "Plasma membrane calcium-transporting ATPase 3 "
+ [2] "Ras-like protein RAS2 "                        
+ [3] "Phenylalanine--tRNA ligase beta subunit "      
+ [4] "Alpha-actinin-1 "                              
+ [5] "Inorganic pyrophosphatase "                    
+ [6] "Trypsin-2 (Fragment) "                         
+ [7] "Myosin heavy chain striated muscle "           
+ [8] "Zonadhesin (Fragment) "                        
+ [9] "mRNA cap guanine-N7 methyltransferase "        
+[10] "Glutathione S-transferase "                    
+
+4 Rat_FSW.vs.LIP 
+[1] "Uncharacterized protein "            "Ankyrin-3 "                         
+[3] "Glutamate dehydrogenase "            "Neural cell adhesion molecule 1 "   
+[5] "Myosin heavy chain striated muscle "
+
+5 Rat_FSW.vs.MBP 
+[1] "Uncharacterized protein "  "Elongation factor 2 "     
+[3] "Coatomer subunit gamma-2 " "ADPATP carrier protein "  
+
+6 Rat_FSW.vs.MIP 
+[1] "Thymosin beta-12 "                   "Annexin A13 "                       
+[3] "Elongation factor 1-alpha "          NA                                   
+[5] "Myosin heavy chain striated muscle " "Filamin-A "                         
+[7] "Peroxiredoxin-6 "  
+
+
+# Downregulated proteins (FDR<0.05, 50-80k iterations)
+1 Rat_FSW.vs.HBP 
+[1] "Clathrin heavy chain 1 "                  
+[2] "Thymosin beta-12 "                        
+[3] NA                                         
+[4] "Transketolase-like protein 2 "            
+[5] "Reticulocyte-binding protein 2 homolog a "
+[6] "Filamin-A "                               
+[7] "Thrombospondin-2 "                        
+
+2 Rat_FSW.vs.HIP 
+[1] "Small cysteine-rich protein 3a "
+
+3 Rat_FSW.vs.LBP 
+ [1] "Clathrin heavy chain 1 "                             
+ [2] "Staphylococcal nuclease domain-containing protein 1 "
+ [3] NA                                                    
+ [4] "Rootletin "                                          
+ [5] "Plasma membrane calcium-transporting ATPase 3 "      
+ [6] "Ras-like protein RAS2 "                              
+ [7] "Phenylalanine--tRNA ligase beta subunit "            
+ [8] "Alpha-actinin-1 "                                    
+ [9] "Vinculin "                                           
+[10] "Inorganic pyrophosphatase "                          
+[11] "Trypsin-2 (Fragment) "                               
+[12] "Myosin heavy chain striated muscle "                 
+[13] "Zonadhesin (Fragment) "                              
+[14] "mRNA cap guanine-N7 methyltransferase "              
+[15] "Glutathione S-transferase "                          
+
+4 Rat_FSW.vs.LIP 
+[1] "Uncharacterized protein "            NA                                   
+[3] "Ankyrin-3 "                          "Glutamate dehydrogenase "           
+[5] "Neural cell adhesion molecule 1 "    "14-3-3 protein zeta "               
+[7] "Transketolase-like protein 2 "       "Myosin heavy chain striated muscle "
+
+5 Rat_FSW.vs.MBP 
+[1] "Uncharacterized protein "  NA                         
+[3] "Septin-7 "                 "Elongation factor 2 "     
+[5] "Coatomer subunit gamma-2 " "ADPATP carrier protein "  
+[7] "Predicted protein "       
+
+6 Rat_FSW.vs.MIP 
+ [1] "Sorcin "                                            
+ [2] "Thymosin beta-12 "                                  
+ [3] "Annexin A13 "                                       
+ [4] "Elongation factor 1-alpha "                         
+ [5] NA                                                   
+ [6] "Cathepsin L "                                       
+ [7] "Seizure 6-like protein "                            
+ [8] "Predicted protein "                                 
+ [9] NA                                                   
+[10] "Cathepsin B "                                       
+[11] "Sodium/potassium-transporting ATPase subunit alpha "
+[12] "Myosin heavy chain striated muscle "                
+[13] "Filamin-A "                                         
+[14] "Peroxiredoxin-6 "
+
+
